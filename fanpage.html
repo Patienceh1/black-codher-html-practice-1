@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head> 
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <style>
 .center {
@@ -13,33 +13,78 @@
 .title {
   font-family: Julius Sans One; font-size: 50px;
 }
+
+.quote {  
+  font-family: Julius Sans One, sans-serif;
+}
+.body {
+  font-family: Cormorant Garamond, serif;
+}
+.video {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+}
+li a {
+  text-align: left;
+  padding: 5px 10px;
+  display: block;
+  width: 60px;
+  background-color: rgb(207, 215, 222);
+}
+.topnav-right {
+  float: right;
+}
+.p1 {
+  text-align: justify;
+}
     </style>
   </head>
-<body>
+<body class="body">
+<div class="topnav-right">
+<ul>
+  <li><a href="#Home">Home</a></li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Contact">Contact</a></li>
+</ul>
+</div>
+
 <h1 class="title">Michelle Obama</h1>
-<img src="e41dfcac-9239-40ca-99b1-d0a3b1ed00ad_1302751_TABLET_LANDSCAPE_LARGE_16_9.jpg" alt="Picture of Michelle Obama" class="center">
-<p>This page is dedicated the awsomeness of Michelle Obama. Here you will find
- cool facts about Michelle Obama,<br> what she is currently up to and inspiring quotes.
-Michelle Obama was born January 17,1964 in <b>Chicago, illinois</b>.</p>
+<img src="Assets/MichelleO.jpg" alt="Picture of Michelle Obama" class="center">
+<p class="p1">This page is dedicated the awsomeness of Michelle Obama. Here you will find
+ cool facts about Michelle Obama, what she is currently up to and inspiring quotes.
+Michelle Obama was born January 17,1964 in <b>Chicago, Illinois</b>.
+Growing up, Michelle's family did not have much money, and lived in a one-bedroom apartment.
+Michelle's parents knew that education was the key to helping their children succeed in life. 
+Determined to ensure her children had a good future, Michelle's mother taught her and Craig how to 
+read and write by the age of 4. Her hard work paid off, because in 1981, she attended Princeton University.</p>
 
 <h3>Here are some facts about Michelle Obama</h3>
 <ol>
     <li>Michelle was the the first African American woman to serve as the first lady of <br>
     the Unted States.</li>
     <li>Michelle earned a Sociology degree at Princeton University, and then a Law degree at Harvard.</li>
-    <li></li>
+    <li>As a child, Michelle played piano.</li>
 </ol>
 
-<q> <b>Success</b> is not about how much money you make. Its about the <b>difference</b> you make <br>
+<q class="quote"> <b>Success</b> is not about how much money you make. Its about the <b>difference</b> you make <br>
     in <b>people's lives</b>.</q>
+    <b></b>
 
     <div>
-        <iframe src="https://www.youtube.com/embed/ln3wAdRAim4" title="First Lady Michelle Obama Carpool Karaoke" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"> 
+        <iframe src="https://www.youtube.com/embed/ln3wAdRAim4" title="First Lady Michelle Obama Carpool Karaoke" frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video"> 
         </iframe>
     </div>
 
     <h4>Sign up to our mailing list to recieve daily inspirational Michelle Obama quotes.</h4>
     <form>
+ 
     <label>Name</label>
     <input type="text">
 
@@ -49,12 +94,22 @@ Michelle Obama was born January 17,1964 in <b>Chicago, illinois</b>.</p>
     <button>Submit</button>
     </form>
 
-    <input type="radio" id="q1" id="q2" id="q3">
+    <h4>How do you feel about Michelle Obama?</h4> 
 
-    <label for q1 >Michelle Obama is amazing!</label>
+    <input type="radio" id="q1", id="q2", id="q3">
+    <label for= "q1">Michelle Obama is amazing!</label> <br>
+
+    <input type="radio" id="q2">
+    <label for="q2">Michelle Obama is okay.</label> <br>
+
+    <input type="radio"  id="q3">
+    <label for="q3">I'm not a fan.</label> 
+
 
 
 <h4>Tell us about what you love most about Michelle Obama.</h4>
     <textarea></textarea>
+
+
 </body>
 </html>
