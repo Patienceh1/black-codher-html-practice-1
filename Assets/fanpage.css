@@ -1,0 +1,55 @@
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+  .title {
+    font-family: Julius Sans One; font-size: 50px;
+  }
+  
+  .quote {  
+    font-family: Julius Sans One, sans-serif;
+  }
+  .body {
+    font-family: Cormorant Garamond, serif;
+  }
+  .video {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  .p1 {
+    text-align: justify;
+  }
+  .nav div {
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  .nav {
+    float: right;
+  }
+  .nav {
+    width: 50px;
+    display: inline-block;
+    margin: 3em 3 0 3em;
+    transition: 0.3s;
+   
+  }
+  .one {
+    width: 30px;
+  }
+  .two {
+    width: 30px;
+  }
+  .three {
+    width: 25px;
+  }
+  .nav:hover div {
+    width: 30px;
+  }
