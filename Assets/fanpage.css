@@ -1,13 +1,38 @@
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1100px;
-  }
-
-  .title {
+.container {
+  display: flex;
+  min-width: 480px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+  h1 {
     font-family: Julius Sans One; font-size: 50px;
+  }
+  @media  (min-width: 480px) {
+    h1,h4,h4 {
+    font-size: 20px;
+    }
+  }
+    @media (min-width: 480px) {
+      .body {
+       font-size: 14px;
+       color:  #FFF;
+       background-color: #3D3B8E;
+       padding: 1em;
+      }
+    }
+  @media (min-width:961px) {
+    h1,h4,h4 {
+      font-size: 50px;
+    }
+  }
+  @media (min-width:961px) {
+    .body {
+      font-size: 26px;
+      background-color: #B0E298;
+      color: #000;
+      padding: 1em;
+    }
   }
   
   .quote {  
@@ -17,30 +42,15 @@
     font-family: Cormorant Garamond, serif;
   }
   .video {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 500px;
   }
   .p1 {
     text-align: justify;
   }
-  .nav div {
-    height: 4px;
-    background-color: black;
-    margin: 5px;
-    border-radius: 25px;
-  }
-  .nav {
-    float: right;
-  }
-  .nav {
-    width: 50px;
-    display: inline-block;
-    margin: 3em 3 0 3em;
-    transition: 0.3s;
-   
-  }
+
   .one {
     width: 30px;
   }
@@ -50,6 +60,4 @@
   .three {
     width: 25px;
   }
-  .nav:hover div {
-    width: 30px;
-  }
+ 
