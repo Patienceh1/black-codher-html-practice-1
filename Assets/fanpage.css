@@ -1,4 +1,14 @@
-
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width:480px) {
+  .container {
+    display: flex;
+  }
+}
 .container {
   display: flex;
   min-width: 480px;
@@ -35,7 +45,7 @@
     }
   }
   
-  .quote {  
+  q {  
     font-family: Julius Sans One, sans-serif;
   }
   .body {
@@ -50,14 +60,3 @@
   .p1 {
     text-align: justify;
   }
-
-  .one {
-    width: 30px;
-  }
-  .two {
-    width: 30px;
-  }
-  .three {
-    width: 25px;
-  }
- 
