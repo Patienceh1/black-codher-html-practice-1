@@ -34,14 +34,14 @@
   }
   @media  (min-width: 480px) {
     h1,h4,h4 {
-    font-size: 20px;
+    font-size: 15px;
     }
   }
     @media (min-width: 480px) {
       .body {
        font-size: 14px;
        color:  #FFF;
-       background-color: #3D3B8E;
+       background-color: white;
        padding: 1em;
       }
     }
@@ -52,8 +52,8 @@
   }
   @media (min-width:961px) {
     .body {
-      font-size: 26px;
-      background-color: #B0E298;
+      font-size: 20px;
+      background-color: white;
       color: #000;
       padding: 1em;
     }
